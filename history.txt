@@ -1,0 +1,501 @@
+    1  clear
+    2  mail
+    3  rpm -qa
+    4  rpm -qa | grep postfix
+    5  clear
+    6  sudo su
+    7  clear
+    8  sudo su
+    9  clear
+   10  rpm -qa | grep postfix
+   11  ls
+   12  mkdir mail
+   13  cd mail
+   14  vi service.sh
+   15  ./service.sh
+   16  chmod u+x service.sh
+   17  ./service.sh
+   18  ls -l
+   19  ./service.sh
+   20  vi service.sh
+   21  ./service.sh
+   22  ls
+   23  ./service.sh
+   24  sh service.sh
+   25  sudo yum install httpd
+   26  clear
+   27  sh service.sh
+   28  echo "Test" | mail -s "testing" patilchau@gmail.com
+   29  mail
+   30  rpm -qa | grep mail
+   31  echo "Test" | mail -s "testing" patilchau@gmail.com
+   32  vi /etc/postfix/main.cf
+   33  cd..
+   34  cd ..
+   35  ls
+   36  cd ..3.87.70.209
+   37  ls
+   38  cd /etc
+   39  ls
+   40  cd postfix
+   41  ls
+   42  cd sasl
+   43  ls
+   44  vi sasl_passwd
+   45  cd
+   46  ls
+   47  cd mail
+   48  ls
+   49  cd /etc/postfix
+   50  ls
+   51  vi main.cf
+   52  ls
+   53  cd sasl
+   54  ls
+   55  vi sasl_passwd
+   56  sudo vi sasl_passwd
+   57  clear
+   58  cd
+   59  cd mail
+   60  echo "Test" | mail -s "testing" patilchau@gmail.com
+   61  cd /etc/postfix
+   62  echo "Test" | mail -s "testing" patilchau@gmail.com
+   63  cd
+   64  echo "Test" | mail -s "testing" patilchau@gmail.com
+   65  ./service.sh
+   66  sh service.sh
+   67  cd mail
+   68  sh service.sh
+   69  echo "Test" | mail -s "testing" patilchau@gmail.com
+   70  cd /etc/postfix
+   71  ls
+   72  cd sasl
+   73  ls
+   74  sudo vi sasl_passwd
+   75  echo "Test" | mail -s "testing" patilchau@gmail.com
+   76  cd ..
+   77  systemctl restart postfix.service
+   78  sudo systemctl restart postfix.service
+   79  echo "Test" | mail -s "testing" patilchau@gmail.com
+   80  cd
+   81  clear
+   82  curl -IsS https://www.google.com
+   83  curl -IsS 3.87.70.209
+   84  ps -ef | grep httpd
+   85  clear
+   86  service status httpd
+   87  systemctl status httpd
+   88  clear
+   89  curl -IsS ec2-3-87-70-209.compute-1.amazonaws.com
+   90  clear
+   91  exit
+   92  clear
+   93  touch build{1..100}
+   94  ls
+   95  grep build
+   96  ls | grep build
+   97  ls | grep build | rm *
+   98  ls | grep build | xargs
+   99  ls
+  100  clear
+  101  touch build{1..100}.log
+  102  ls
+  103  clear
+  104  .log
+  105  ls
+  106  ls | grep build
+  107  clear
+  108  ls *.t
+  109  ls -t *.t
+  110  ls -t *.log
+  111  clear
+  112  ls -t *.log | tail -n+21 | xargs
+  113  ls -t *.log | tail -n+21 | xargs rm
+  114  ls
+  115  ls -t *.log | tail -n+11 | rm *
+  116  ls
+  117  touch build{1..100}.log
+  118  ls -t *.log | tail -n+21 | rm
+  119  ls -t *.log | tail -n+21 | xargs rm
+  120  clear
+  121  ssh-keygen
+  122  clear
+  123  cd .ssh
+  124  ls
+  125  cat id_rsa_pub
+  126  cat id_rsa.pub
+  127  ls
+  128  vi authorized_keys 
+  129  clea
+  130  clear
+  131  cd
+  132  ssh potato
+  133  cd /etc/ssh
+  134  ls
+  135  sudo vi ssh_config
+  136  sudo vi ssh_config.d
+  137  sudo vi sshd_config.d
+  138  sudo vi sshd_config
+  139  ls
+  140  cd
+  141  ls
+  142  clear
+  143  ls | grep *.log
+  144  ls *.log
+  145  ls *.log | xargs rm
+  146  ls
+  147  mkdir assignment
+  148  cd assignment
+  149  clear
+  150  pwd
+  151  ls
+  152  cat add.sh
+  153  rm add.sh
+  154  clear
+  155  ls
+  156  cd
+  157  cd mail
+  158  ls
+  159  cp service.sh /home/ec2-user/assignment
+  160  cd
+  161  cd assignment
+  162  ls
+  163  clear
+  164  cd
+  165  cd mail
+  166  ls
+  167  mv service.sh /home/ec2-user/assignment
+  168  ls
+  169  clear
+  170  ls
+  171  cd assignment
+  172  ls
+  173  cd
+  174  cd assignment
+  175  ls
+  176  clear
+  177  vi service .sh
+  178  vi service.sh
+  179  clear
+  180  vi service.sh
+  181  vi web.sh
+  182  ./web.sh
+  183  chmod u+x web.sh
+  184  ./web.sh
+  185  chmod u+x web.sh
+  186  vi web.sh
+  187  ./web.sh
+  188  sudo yum install httpd
+  189  clear
+  190  ./web.sh
+  191  systemctl is-active httpd
+  192  curl -IsS ec2-44-204-14-160.compute-1.amazonaws.com
+  193  clear
+  194  curl -IsS ec2-44-204-14-160.compute-1.amazonaws.com
+  195  systemctl is-active httpd
+  196  curl -IsS ec2-44-204-14-160.compute-1.amazonaws.com
+  197  ./web.sh
+  198  clear
+  199  curl -IsS ec2-44-204-14-160.compute-1.amazonaws.com
+  200  ls -l
+  201  chmod 777 service.sh
+  202  curl -IsS ec2-44-204-14-160.compute-1.amazonaws.com
+  203  ls -l
+  204  chmod g-wx o-wx
+  205  chmod g-wx
+  206  chmod 744 service.sh
+  207  ls -l
+  208  clear
+  209  curl -IsS http://ec2-44-204-14-160.compute-1.amazonaws.com/
+  210  curl -IsS ec2-44-204-14-160.compute-1.amazonaws.com/
+  211  clear
+  212  ls
+  213  cd assignment
+  214  ls
+  215  clear
+  216  ./service.sh
+  217  ls
+  218  sh service.sh
+  219  ./web.sh
+  220  curl -IsS http://ec2-35-170-202-247.compute-1.amazonaws.com/
+  221  curl -I http://ec2-35-170-202-247.compute-1.amazonaws.com/
+  222  curl -I http://ec2-35-170-202-247.us-east-1.compute-1.amazonaws.com/
+  223  clear
+  224  cd assignment
+  225  ./pattern.sh
+  226  clear
+  227  cd assignment
+  228  clear
+  229  ls
+  230  cat max.sh
+  231  clear
+  232  exit
+  233  cd assignment
+  234  \ls
+  235  ls
+  236  clear
+  237  ls
+  238  ./menu.sh
+  239  cat pattern.sh
+  240  cat search.sh
+  241  clear
+  242  ./menu.sh
+  243  clear
+  244  ./menu.sh
+  245  ls
+  246  touch file
+  247  ./menu.sh
+  248  mkdir dir
+  249  ./menu.sh
+  250  clear
+  251  ll
+  252  ./menu.sh
+  253  clear
+  254  ./menu.sh
+  255  ll
+  256  vi menu.sh
+  257  ./menu.sh
+  258  clear
+  259  vi sample.txt
+  260  ./menu.sh
+  261  clear
+  262  ./menu.sh
+  263  vi sample.txt
+  264  vi menu.sh
+  265  ./menu.sh
+  266  clear
+  267  ./menu.sh
+  268  vi menu.sh
+  269  clear
+  270  ./menu.sh
+  271  vi menu.sh
+  272  clear
+  273  ./menu.sh
+  274  ls
+  275  ./menu.sh
+  276  cd
+  277  ls
+  278  touch file
+  279  cd -
+  280  ./menu.sh
+  281  xargs file
+  282  clear
+  283  readlink -f file | xargs dirname
+  284  ls
+  285  readlink -f elif | xargs dirname
+  286  readlink -f el | xargs dirname
+  287  dirname
+  288  file dirname
+  289  vi menu.sh
+  290  ./menu.sh
+  291  clear
+  292  ls
+  293  ./menu.sh
+  294  clear
+  295  ls
+  296  ./menu.sh
+  297  clear
+  298  ls
+  299  ./menu.sh
+  300  ls
+  301  clear
+  302  cd
+  303  crontab
+  304  sudo systemctl start crond
+  305  cat menu.sh
+  306  cd assignment
+  307  clear
+  308  cat menu.sh
+  309  clear
+  310  cd assignment
+  311  ls
+  312  ./web.sh
+  313  systemctl is-active httpd
+  314  cat web.sh
+  315  ./web.sh
+  316  systemctl is-active httpd
+  317  clear
+  318  ./web.sh
+  319  curl -IsS ec2-44-210-146-234.compute-1.amazonaws.com
+  320  clear
+  321  ls
+  322  cat service.sh
+  323  ./service.sh
+  324  ll
+  325  chmod u+x service.sh
+  326  ./service.sh
+  327  sh service.sh
+  328  sudo -i
+  329  sh service.sh
+  330  vi service.sh
+  331  clear
+  332  sh service.sh
+  333  date
+  334  clear
+  335  sudo systemctl stop httpd
+  336  sudo systemctl status httpd
+  337  sh service.sh
+  338  sudo yum install cronie -y
+  339  clear
+  340  sudo systemctl enable crond.service
+  341  sudo systemctl start crond.service
+  342  sudo systemctl status crond | grep Active
+  343  sudo systemctl status crond.service
+  344  clear
+  345  cron -e
+  346  crontab -e
+  347  cd assignment
+  348  ls
+  349  crontab -e
+  350  clear
+  351  date
+  352  systemctl is-active httpd
+  353  sudo systemctl stop httpd
+  354  systemctl is-active httpd
+  355  date
+  356  cd /var/spool/mail/ec2-user
+  357  ls
+  358  cd
+  359  ls
+  360  cd amil
+  361  cd mail
+  362  ;s
+  363  ls
+  364  cd
+  365  date
+  366  systemctl is-active httpd
+  367  cat service.sh
+  368  cd assignment
+  369  clear
+  370  ls
+  371  cat service.sh
+  372  date
+  373  systemctl is-active httpd
+  374  date
+  375  systemctl is-active httpd
+  376  crontab -e
+  377  clear
+  378  ls
+  379  pwd
+  380  systemctl is-active httpd
+  381  cat service.sh
+  382  date
+  383  systemctl is-active httpd
+  384  clear
+  385  systemctl is-active httpd
+  386  crontab -e
+  387  ls
+  388  sh service.sh
+  389  systemctl is-active httpd
+  390  ll
+  391  sudo systemctl stop httpd
+  392  date
+  393  systemctl is-active httpd
+  394  clear
+  395  history
+  396  sudo systemctl status postfix.service
+  397  q
+  398  clear
+  399  crontab -e
+  400  date
+  401  systemctl is-active httpd
+  402  crontab -e
+  403  cat service.sh
+  404  clear
+  405  systemctl is-active httpd
+  406  crontab -l
+  407  clear
+  408   cd assignment
+  409  clear
+  410  ls
+  411  ifconfig
+  412  ip addr
+  413  clear
+  414  ip addr
+  415  clear
+  416  cd
+  417  mkdir
+  418  mkdir mock
+  419  cd mock
+  420  clear
+  421  vi combine.sh
+  422  clear
+  423  vi reverse.sh
+  424  ./reverse.sh
+  425  chmod u+x reverse.sh
+  426  ./reverse.sh
+  427  sh reverse.sh
+  428  vi reverse.sh
+  429  sh reverse.sh
+  430  vi reverse.sh
+  431  sh reverse.sh
+  432  vi reverse.sh
+  433  sh reverse.sh
+  434  vi reverse.sh
+  435  sh reverse.sh
+  436  vi reverse.sh
+  437  sh reverse.sh
+  438  clear
+  439  vi reverse.sh
+  440  sh reverse.sh
+  441  vi reverse.sh
+  442  sh reverse.sh
+  443  clear
+  444  sh reverse.sh
+  445  clear
+  446  vi reverse.sh
+  447  clear
+  448  sh reverse.sh
+  449  vi reverse.sh
+  450  sh reverse.sh
+  451  clear
+  452  vi reverse.sh
+  453  sh reverse.sh
+  454  clear
+  455  vi reverse.sh
+  456  sh reverse.sh
+  457  vi reverse.sh
+  458  sh reverse.sh
+  459  clear
+  460  sh reverse.sh
+  461  vi reverse.sh
+  462  sh reverse.sh
+  463  vi reverse.sh
+  464  sh reverse.sh
+  465  vi reverse.sh
+  466  sh reverse.sh
+  467  clear
+  468  vi reverse.sh
+  469  clear
+  470  where git
+  471  git --version
+  472  sudo yum install git -y
+  473  git --version
+  474  where git
+  475  sudo yum install where
+  476  whereis git
+  477  which git
+  478  clear
+  479  git init
+  480  cd linux
+  481  ls
+  482  git assignment
+  483  cd assignment
+  484  git assignment
+  485  git init
+  486  ls
+  487  ls -lart
+  488  git add README.md
+  489  clear
+  490  echo "# shellscripts" >> README.md
+  491  git add README.md
+  492  git commit -m "first commit"
+  493  git add *
+  494  git commit -m "second commit"
+  495  clear
+  496  git branch -M master
+  497  git remote add origin https://github.com/Chaupatil/DevOps.git
+  498  git push -u origin master
+  499  history
+  500  clear
+  501  history > history.txt
