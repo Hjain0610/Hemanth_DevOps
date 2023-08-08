@@ -1,0 +1,12 @@
+#!/bin/bash
+
+path="/home/ec2-user/scripts/interview"
+for file in "$path";
+do
+  if [ -f "$file" ]; 
+  then
+    mv "$file" "$file.new"
+    echo "Renamed $file to $file.new"
+  fi
+done
+
