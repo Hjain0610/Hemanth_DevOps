@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 source_dir="/home/ec2-user/mock"
 destination_dir="/home/ec2-user/scripts/interview"
 

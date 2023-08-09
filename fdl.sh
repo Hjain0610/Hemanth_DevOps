@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 
 echo "Enter :"
 read name
