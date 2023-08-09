@@ -467,35 +467,71 @@
   467  clear
   468  vi reverse.sh
   469  clear
-  470  where git
-  471  git --version
-  472  sudo yum install git -y
-  473  git --version
-  474  where git
-  475  sudo yum install where
-  476  whereis git
-  477  which git
-  478  clear
-  479  git init
-  480  cd linux
-  481  ls
-  482  git assignment
-  483  cd assignment
-  484  git assignment
-  485  git init
-  486  ls
-  487  ls -lart
-  488  git add README.md
-  489  clear
-  490  echo "# shellscripts" >> README.md
-  491  git add README.md
-  492  git commit -m "first commit"
-  493  git add *
-  494  git commit -m "second commit"
-  495  clear
-  496  git branch -M master
-  497  git remote add origin https://github.com/Chaupatil/DevOps.git
-  498  git push -u origin master
-  499  history
-  500  clear
-  501  history > history.txt
+  470  cd assignment
+  471  ls
+  472  vi print.sh
+  473  git push -u origin master
+  474  git commit -m "fourth commit"
+  475  git add print.sh
+  476  git commit -m "fifth commit"
+  477  git push -u origin master
+  478  where git
+  479  git --version
+  480  sudo yum install git -y
+  481  git --version
+  482  where git
+  483  sudo yum install where
+  484  whereis git
+  485  which git
+  486  clear
+  487  git init
+  488  cd linux
+  489  ls
+  490  git assignment
+  491  cd assignment
+  492  git assignment
+  493  git init
+  494  ls
+  495  ls -lart
+  496  git add README.md
+  497  clear
+  498  echo "# shellscripts" >> README.md
+  499  git add README.md
+  500  git commit -m "first commit"
+  501  git add *
+  502  git commit -m "second commit"
+  503  clear
+  504  git branch -M master
+  505  git remote add origin https://github.com/Chaupatil/DevOps.git
+  506  git push -u origin master
+  507  history
+  508  clear
+  509  history > history.txt
+  510  ls
+  511  cat history.txt
+  512  clear
+  513  git add history.txt
+  514  git commit -m "Third commit"
+  515  git push -u origin master
+  516  clear
+  517  ls
+  518  cd assignment
+  519  ls
+  520  ls -lasrt
+  521  ls -lart
+  522  cd .git
+  523  ls
+  524  cat config
+  525  clear
+  526  cat config
+  527  git config --global user.name "patilchau"
+  528  cat config
+  529  git config --global user.email "patilchau@gmail.com"
+  530  cat config
+  531  clear
+  532  cd -
+  533  git commit -m "changing user"
+  534  ls
+  535  cat history.txt
+  536  history
+  537  history > history.txt
