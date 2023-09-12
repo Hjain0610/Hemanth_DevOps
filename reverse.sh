@@ -1,8 +1,8 @@
 #!/bin/bash
 
-read -p "Enter a number: " input
+input=$*
 
-if [ -z "$input" ]; 
+if [ $# -eq 0 ]; 
 then
   echo "Error: No input provided."
 else
